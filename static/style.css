@@ -1,0 +1,39 @@
+body{
+    background: url('/static/images/pexels-pixabay-164634.jpg') no-repeat center fixed;
+    background-size: cover;
+    
+}
+
+.btn_upload:hover, .btn_delete:hover, .dropdown-item:hover{
+    cursor: pointer;
+}
+
+.btn_delete{
+    margin-left: 10px;
+    color: #dc3545;
+}
+
+#loader{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #fff;
+    border-top: 6px solid #af1111;
+    border-radius: 100%;
+    margin: auto;
+    animation: spin 0.8s infinite linear;
+    visibility: hidden;
+}
+
+#loader.display{
+    visibility: visible;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+
