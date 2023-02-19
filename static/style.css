@@ -1,3 +1,5 @@
+
+
 body{
     background: url('/static/images/pexels-pixabay-164634.jpg') no-repeat center fixed;
     background-size: cover;
@@ -36,4 +38,39 @@ body{
     }
 }
 
+h1{
+    color: #dc3545;
+}
+
+.col-5{
+    background-color: rgb(235, 106, 46);
+    margin: 10px 10px;
+    border-radius: 12px 12px 12px 12px !important;
+
+}
+
+.col-12{
+    background-color: rgb(235, 106, 46);
+    margin: 10px 10px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.col-2{
+    height: 48px;
+    border-radius: 12px 12px 12px 12px !important;
+    
+}
+
+.col-5:hover{
+    background-color:rgb(231, 82, 12) !important;
+}
+
+.col-12:hover{
+    background-color: rgb(231, 82, 12) !important;
+}
+
+.bg-info{
+    background-color: rgb(196, 183, 2) !important;
+    
+}
 
